@@ -1,0 +1,224 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0e0e0e;
+  color: #e0e0e0;
+}
+
+nav {
+  background: #111;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background: #111;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #00ffff;
+  object-fit: cover;
+  box-shadow: 0 0 15px #00ffff88;
+}
+
+section {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+  color: #eee;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 2rem auto 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  background-color: #222;
+  color: #fff;
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  background: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0ff;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.certificate-download {
+  display: inline-block;
+  margin-left: 1rem;
+  color: #0ff;
+  text-decoration: underline;
+}
+
+a i {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: #00ffff;
+  transition: 0.3s;
+}
+
+a i:hover {
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+}
+
+/* Skills Section */
+.skill {
+  margin: 1.5rem auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.skill h3 {
+  margin-bottom: 0.5rem;
+  color: #0ff;
+}
+
+.skill-bar {
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+  box-shadow: inset 0 0 5px #000;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #00ffff, #0ff5);
+  text-align: right;
+  padding-right: 10px;
+  color: #000;
+  font-weight: bold;
+  line-height: 20px;
+  transition: width 1s ease-in-out;
+  border-radius: 10px;
+}
+
+/* Experience Section */
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.experience-card {
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 350px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #eee;
+  text-align: left;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.certificate-btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: #00ffff;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.certificate-btn:hover {
+  background: #0ff;
+  box-shadow: 0 0 10px #0ff;
+}
